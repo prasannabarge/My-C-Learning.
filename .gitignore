@@ -1,3 +1,4 @@
+# macOS
 .DS_Store
 
 # Prerequisites
@@ -52,3 +53,31 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Logs
+*.log
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Package files
+node_modules/
+*.egg
+*.egg-info/
+dist/
+build/
+__pycache__/
+
+# Environment variables
+.env
+
+# Temporary files
+*~
+*.swp
+*.swo
+*.bak
+
+# IDE-specific files
+.vscode/
+.idea/
