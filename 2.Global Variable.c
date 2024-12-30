@@ -17,3 +17,4 @@ int main(){
   return 0;
   
 }
+//this is example of global variable
